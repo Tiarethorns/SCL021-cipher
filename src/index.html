@@ -7,22 +7,24 @@
       </head>
   <body>
     <div id="root">
+      
       <h1>D-CIPHER</h1>
+
       <section>
       <img src="https://th.bing.com/th/id/R.ae795b0a554ab85a71d4976fdd27c0ae?rik=8gjBKJMVFciCfA&riu=http%3a%2f%2ftodovector.com%2fvector%2fherramientas%2fllave%2f45.png&ehk=Aat5MpAy71mDS4dHyYhFteo5HiBxW0VScrPxKsLsxoI%3d&risl=&pid=ImgRaw&r=0">
       </section>
 
-     <header class="box1">
-      <P>Cifra tus averiguaciones de hoy</P>
-      <textarea name="text1" id="relato" cols="30" rows="10" placeholder="Escribe aquí tus reportes"></textarea>
-     </header>
+     <div class="box1">
+      <P>Cifra texto</P>
+      <textarea name="text1" id="relato" cols="45" rows="20" placeholder="Escribe aquí"></textarea>  
+     </div>
 
-     <header class="box2">
-      <P>Descifra los mensajes que hay para tí</P>
-      <textarea name="text2" id="relato" cols="30" rows="10" placeholder="Escribe aquí tus mensajes"></textarea>
-     </header>
+     <div class="box2">     
+      <P>Descifra texto </P>
+      <textarea name="text2" id="relato" cols="45" rows="20" placeholder="Escribe aquí"></textarea>
+     </div>
 
-      <div>
+      <div id="ElegirLlaves">
       <label for="LLAVES">Elige una llave:</label>
 
       <select name="LLAVES" id="LLAVES">
@@ -34,7 +36,8 @@
   </div>
     
   
-      <button id="code">cifra tus avances</button>
+      <button id="code">codifica</button>
+      <button id="decode">decodifica</button>
     </div>
     <script src="index.js" type="module"></script>
   </body>
