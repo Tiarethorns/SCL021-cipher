@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@100&display=swap');
+*{
+    font-family: 'Trispace', sans-serif;
+}
+body {
+    height: fit-content;
+    display: flex;
+    
+    align-items: center;
+    padding-top: 250px;    
+}
+.box1{
+   
+    float: left;
+}
+
+.box2{
+
+    float: right;
+
+}
