@@ -1,44 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Permanent+Marker&display=swap');
+
+:root{
+    background-color: 
+    
+}
+
+:root{
+    background-color: #E9D5CA;
+}
+
 *{
-    font-family: 'Permanent Marker', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Architects Daughter, cursive;
+    color: white;
     }
 
-h1{
-    position:absolute;
-	left: 30px;
-	top: 10px;
-	
-   
+.formulario{
+    width: 400px;
+    height: 500px;
+    background-color:grey;
+    margin: auto;
+    margin-top: 110px;
+    box-shadow: 7px 13px 37px black;
+    padding: 20px 20px;
+    border-top: #5553a6;
+   }
+
+.formulario h5{
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 20px;
+    font-size: 20px;
 }
-section{
-    padding-left: 45%;
-        
+
+.menu{
+    width: 100%;
+    margin-bottom: 35px;
+    padding: 11px 10px;
+    background-color: #9DD6DF;
+    border: solid;
     
 }
 
-.box2{
-    
-    position:absolute;
-	left: 950px;
-	top: 300px;
-	width:800px;
-	height:480px;
-}
-.box1{
-    position:absolute;
-	right: 250px;
-	top: 300px;
-	width:800px;
-	height:480px; 
-   
-    
-}
-#ElegirLlaves{
-    position: absolute;
-    top: 500px;
-
-
+input{
+    width: 100%;
+    border: solid; 
+    margin-bottom: 35px;
+    padding: 11px 10px;
+    background-color: #9DD6DF;
+    font-weight: bold;
        
 }
 
-     
+.mensajecifrar{
+    background-color: #E9D5CA;
+    height: 110px;
+    border: solid;
+    
+}
+
+
+	
