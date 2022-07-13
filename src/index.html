@@ -3,53 +3,62 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Cifrador César</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NotCool</title>
+  <link rel="stylesheet" href="style.css" />
+  </head>
 
 <body>
-  <section class="formulario">
-    <h5>D-CIFRA</h5>
-    <input class="mensajecifrar" type="text" name="CIFRADOR" placeholder="Escribe aquí el mensaje" rows="30">
-    
-    <div id="Elegirclave">
-        <label for="claves">Elige una Clave:</label>
-            <select class="menu" name="claves" id="LLAVES">
-           
-        <option value="1">CLAVE UNO</option>
-        <option value="2">CLAVE DOS</option>
-        <option value="3">CLAVE TRES</option>
-        <option value="4">CLAVE CUATRO</option>
-        <option value="5">CLAVE CINCO</option>
-        <option value="6">CLAVE SEIS</option>
-        <option value="7">CLAVE SIETE</option>
-        <option value="8">CLAVE OCHO</option>
-        <option value="9">CLAVE NUEVE</option>
-        <option value="10">CLAVE DIEZ</option>
-        <option value="11">CLAVE ONCE</option>
-        <option value="12">CLAVE DOCE</option>
-        <option value="13">CLAVE TRECE</option>
-        <option value="14">CLAVE CATORCE</option>
-        <option value="15">CLAVE QUINCE</option>
-        <option value="16">CLAVE DIECISEIS</option>
-        <option value="17">CLAVE DIECISIETE</option>
-        <option value="18">CLAVE DIECIOCHO</option>
-        <option value="19">CLAVE DIECINUEVE</option>
-        <option value="20">CLAVE VEINTE</option>
-        <option value="21">CLAVE VEINTIUNO</option>
-        <option value="22">CLAVE VEINTIDOS</option>
-        <option value="23">CLAVE VEINTITRES</option>
-        <option value="24">CLAVE VEINTICUATRO</option>
-        <option value="25">CLAVE VEINTICINCO</option>
-        </select>
+  <header>
+    <div class="logo" id="logo">
+      <img src="hate.webp" width="185" height="185" alt="sad">
+    </div>
+  </header>
+  <!--PÁGINA PRINCIPAL-->
+  <section class="pag1" id="pag1">
+    <main class="contenedor">
+      <div id="root">
+        <h1>NotCool</h1>
 
-    <input class="boton" type="button" name="cifrar" value="cifrar">
-    <input class="boton" type="button" name="decifrar" value="decifrar">
+
+        <h2>NotCool es una aplicación escolar que tiene como objetivo erradicar el bullyng...
+            para esto animamos a los estudiantes a compartir las situaciones en las cuales han
+            sido vulnerados o también testigos de este comportamiento abusivo entre compañeros.<br>
+            <br>
+            ¿Como funciona? La escuela cuenta con un foro virtual y perfiles públicos en redes sociales, los alumnos
+            publican lo sucedido utilizando un método de encriptación de mensajes, para el que deben
+            elegir una clave la que solo compartiran cuando quieran que el mensaje sea revelado.
+       </h2>           
         
         
-        </div>
-    </section> 
+        <button id="comenzar" class="boton1" type="text">COMENZAR</button>
+      </div>
+    </main>
+  </section>
+  <!--SEGUNDA PÁGINA-->
+  <section class="pag2" id="pag2">
+    <main class="contenedor2">
+      <textarea type="text" class="mensaje" id="mensaje" rows="3" cols="40"
+        placeholder="Escribe tu mensaje aquí"></textarea>
+      <h3>ELIGE UNA CLAVE</h3>
+      <input type="number" class="mover" id="desplazar"><br>
+      <button id="cifrar" type="text" class="cifrar">CIFRAR</button>
+      <button id="descifrar" type="text" class="descifrar">DESCIFRAR</button>
+      <p>MENSAJE CIFRADO</p>
+      <input type="text" class="resultado" id="resultado">
+      <h1>Comparte tu experiencia</h1>
+      <a href="https://web.whatsapp.com/">
+          <img src="whatsapp.png" width="40" height="40" class="whatsapp" alt="whatsapp">
+      </a>
+
+      <a href="https://www.instagram.com/">
+          <img src="ig.png" width="40" height="40" class="instagram" alt="instagram">
+      </a>
+
+    
+    </main> 
+  </section>
+  <script src="index.js" type="module"></script>
 </body>
 
 </html>

@@ -1,66 +1,178 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Permanent+Marker&display=swap');
-
-:root{
-    background-color: 
-    
-}
-
-:root{
-    background-color: #E9D5CA;
-}
-
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Architects Daughter, cursive;
+    font-family: 'Indie Flower', cursive;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #FAF4B7;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    }
+    
+    .logo{
+    text-align: center;
+    cursor: pointer;
+    }
+    
+    h1{
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    letter-spacing: normal;
+    color: black;
+    }
+    
+    h2{
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    margin-top: -30px;
+    line-height: 23px;
+    font-weight: normal;
+    letter-spacing: normal;
+    color: black;
+    }   
+    
+    h3{
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    cursor: pointer;
+    letter-spacing: normal;
+    color: black;
+    margin-top: 10px;
+    }
+    
+    p{
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    letter-spacing: normal;
+    color: black;
+    }
+    
+    
+    .boton1{
     color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #F637EC;
+    border: none;
+    float:none;
+    text-align:center;
+    font-size: 20px;
+    width: 200px;
+    height: 60px;
+    margin-bottom: -20px;
+    font-weight: bold;
+    margin-top: 40px;
+    
+    }
+    
+    .contenedor{
+    width: 600px;
+    height: 450px;
+    background-color: #CDF0EA;
+    margin: auto;
+    text-align: center;
+    border-radius: 27px;
+    opacity:90%;
+    }
+    
+    .contenedor2{
+    width: 600px;
+    height:450px;
+    background-color: #CDF0EA;
+    margin: auto;
+    text-align: center;
+    border-radius: 27px;
+    opacity:90%;
+    margin-top: 30px;
+    }
+    
+    .mensaje{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 15px;
+    margin-top: 30px;
+    border-radius: 15px;
+    color: dimgray;
+    font-weight: bold;
+    letter-spacing: normal;
+    border: none;
+    float:none;
+    height: 40px;
+    width: 500px;
+    }
+    
+    .mover{
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    border: none;
+    float:none;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    margin-top: 0px;
+    }
+    
+    .cifrar{
+    width: 100px;
+    height: 30px;
+    font-family: 'Indie Flower', cursive;
+    background-color: #F637EC;
+    color:white;
+    font-size: 15px;
+    
+    border: none;
+    float:none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    }
+    
+    .descifrar{
+    width: 100px;
+    height: 30px;
+    font-family: 'Indie Flower', cursive;
+    background-color:#F637EC;
+    color:white;
+    font-size: 15px;
+    
+    border: none;
+    float:none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    }
+    
+    .resultado{
+    width: 500px;
+    height: 40px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 15px;
+    margin-bottom: 8px;
+    border: none;
+    float:none;
+    border-radius: 15px;
+    color: dimgray;
+    font-weight: bold;
+    letter-spacing: normal;
+    }
+    
+    .whatsapp{
+    cursor: pointer;    
+    margin-top: -15px;;
     }
 
-.formulario{
-    width: 400px;
-    height: 500px;
-    background-color:grey;
-    margin: auto;
-    margin-top: 110px;
-    box-shadow: 7px 13px 37px black;
-    padding: 20px 20px;
-    border-top: #5553a6;
-   }
-
-.formulario h5{
-    margin: 0;
-    text-align: center;
-    height: 40px;
-    margin-bottom: 20px;
-    font-size: 20px;
-}
-
-.menu{
-    width: 100%;
-    margin-bottom: 35px;
-    padding: 11px 10px;
-    background-color: #9DD6DF;
-    border: solid;
-    
-}
-
-input{
-    width: 100%;
-    border: solid; 
-    margin-bottom: 35px;
-    padding: 11px 10px;
-    background-color: #9DD6DF;
-    font-weight: bold;
-       
-}
-
-.mensajecifrar{
-    background-color: #E9D5CA;
-    height: 110px;
-    border: solid;
-    
-}
-
-
-	
+    .instagram{
+        cursor: pointer;    
+        margin-top: -15px;;
+        }
